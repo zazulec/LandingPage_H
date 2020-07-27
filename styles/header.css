@@ -1,0 +1,35 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* position: fixed; */
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 70px;
+  background-color: mediumslateblue;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    opacity: 0.5;
+    border:  5px solid;
+    border-color: var(--color-white);
+    margin: 10px 0px;
+    padding: 0px 10px;
+
+}
+/* media width 600 */
+/* media width ~800-1000 */
+/* media width ~1500 */
+
+.header_navigation > * {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-white);
+  opacity: 0.5;
+  margin: 5px;
+};
+
+
