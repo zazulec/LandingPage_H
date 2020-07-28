@@ -1,0 +1,33 @@
+/* wrzucić relative gdy ręka nie będzie pod znakiem */
+#howItWorks {
+  /* position: relative;  */
+  z-index: 2;
+  background-color: white;
+  border-radius: 50% 50% 0px 0px;
+  -moz-border-radius: 50% 50% 0px 0px;
+  -webkit-border-radius: 50% 50% 0px 0px;
+  /* border: 0px none; */
+  height: 100px;
+  width: 100%;
+}
+
+.howItWorks_cherry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.howItWorks_cherry__icon {
+  background-color: #ee8209;
+  height: 50px;
+  width: 50px;
+  border-radius: 27%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
