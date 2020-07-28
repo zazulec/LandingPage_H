@@ -1,7 +1,7 @@
 /* wrzucić relative gdy ręka nie będzie pod znakiem */
 #howItWorks {
-  /* position: relative;  */
-  z-index: 2;
+  position: relative; 
+  z-index: 3;
   background-color: white;
   border-radius: 50% 50% 0px 0px;
   -moz-border-radius: 50% 50% 0px 0px;
@@ -31,3 +31,13 @@
   align-items: center;
   margin: 0px;
 }
+
+.howItWorks_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+
