@@ -14,7 +14,7 @@
   border: 5px solid;
   border-color: var(--color-white);
   margin: 10px 0px;
-  padding: 0px 10px;
+  padding: 22px 35px;
 }
 
 .header_navigation > * {
@@ -116,7 +116,7 @@
   }
 
   .header_logo {
-    padding: 23px 49px;
+    padding: 23px 34px;
     font-size: 23px;
   }
 

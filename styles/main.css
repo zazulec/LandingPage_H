@@ -2,7 +2,8 @@
 
 :root {
   --color-white: #fff;
-  
+  --font-sister: 'Love Ya Like A Sister', cursive;
+  --font-pro:  "Font Awesome 5 Pro";
 }
 
 /*STYLES*/
@@ -12,6 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  /* main font probably to delete and replace others */
 
 }
 
@@ -30,7 +32,7 @@ html {
 
 }
 
-.backGroundConteiner {
+.backGroundContainer {
   width: 100%;
   background: rgb(37, 27, 138);
   background: linear-gradient(
