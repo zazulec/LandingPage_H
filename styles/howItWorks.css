@@ -150,7 +150,6 @@
   padding-top: 40px;
 }
 
-
 @media screen and (min-width: 567px) and (max-width: 939px) {
   .howItWorks_info__title {
     max-height: 88px;
@@ -167,6 +166,45 @@
 }
 
 @media screen and (min-width: 940px) and (max-width: 1099px) {
+  .absolute {
+    position: absolute;
+    top: -163px;
+    right: -200px;
+  }
+
+  .howItWorks_content {
+    position: relative;
+  }
+
+  .howItWorks_info1 {
+    align-items: flex-start;
+    width: 100%;
+    height: 299px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .howItWorks_info2 {
+    padding-right: 30px;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+  }
+
+  .howItWorks_info3 {
+      width: 100%;
+      flex-direction: row;
+      justify-content: end;
+  }
+
+  .howItWorks_info4 {
+    width: 50%;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+
   .howItWorks_info1__img,
   .howItWorks_info2__img,
   .howItWorks_info3__img,
@@ -175,61 +213,35 @@
     height: 360px;
   }
 
-  .howItWorks_info1 {
-    align-items: flex-start;
-    width: 50%;
-    left: 98px;
-    top: 144px;
-    flex-direction: row;
+  .howItWorks_info1__imageWrapper {
+    position: absolute;
+    top:0;
+    left: 0;
   }
 
-  .howItWorks_info2 {
-    align-items: flex-end;
-    padding-right: 30px;
-    flex-direction: row-reverse;
-    justify-content: end;
-    align-items: center;
-    width: 50%;
-    right: 0;
-    top: 330px;
-  }
+  .howItWorks_info__textContainer {
+    width: 300px;
 
-  .howItWorks_info3 {
-    align-items: flex-start;
-    width: 50%;
-    left: 98px;
-    top: 625px;
-    flex-direction: row;
-  }
-
-  .howItWorks_info4 {
-    width: 50%;
-    right: 208px;
-    top: 1061px;
-    align-items: center;
-  }
-  .containerPostioning_textContainer {
-    left: 235px;
-    top: -166px;
   }
 
   .howItWorks__arrowRight {
-    /* position: absolute; */
-    top: 223px;
-    right: 273px;
-  }
-  
+    position: absolute;
+    top: 221px;
+    right: 313px;
+}
+
   .howItWorks__arrowLeft {
-    /* position: absolute; */
-    top: 481px;
-    right: 517px;
+    position: absolute;
+    top: 555px;
+    right: 522px;
   }
 
   .howItWorks__arrowOverAndOver {
-    /* position: absolute; */
-    top: 720px;
-    right: 250px;
-    transform: rotate3d(2, -3, 2, 45deg);
-}
+    position: absolute;
+    bottom: 600px;
+    right: 282px;
+    transform: rotate3d(2, -3, 2, 38deg);
+  }
 
+  
 }
