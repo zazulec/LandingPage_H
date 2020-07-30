@@ -53,12 +53,6 @@
   padding-left: 15px;
 }
 
-/* ////////////////////////////// @media Section //////////////////////////////*/
-
-/* media width 600 */
-/* media width ~800-1000 */
-/* media width ~1500 */
-
 @media screen and (min-width: 677px) and (max-width: 740px) {
   #header {
     display: flex;
@@ -116,7 +110,7 @@
   }
 
   .header_logo {
-    padding: 23px 34px;
+    padding: 23px 20px;
     font-size: 23px;
   }
 
