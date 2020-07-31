@@ -1,8 +1,6 @@
 #header {
   display: flex;
   justify-content: space-between;
-  /* position: fixed; */
-  padding: 0px 50px;
   height: 70px;
 }
 
@@ -13,12 +11,17 @@
   opacity: 0.5;
   border: 5px solid;
   border-color: var(--color-white);
-  margin: 10px 0px;
+  margin: 10px 0 10px 24px;
   padding: 22px 35px;
 }
 
-.header_navigation > * {
+.header_navigation {
   display: none;
+  position: fixed;
+  width: 100%;
+  justify-content: flex-end;
+  z-index: 1000;
+  transition: background .5s ease-in-out;
 }
 
 .header_menuIcon {
@@ -97,7 +100,6 @@
     flex-direction: row;
     height: 40px;
     font-size: larger;
-    padding-top: 5px;
   }
 
   .header_navigation > * {

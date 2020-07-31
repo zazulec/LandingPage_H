@@ -31,8 +31,9 @@
                     <a href="#header">Jak to działa?</a>
                     <a href="#priceList">Cennik</a>
                     <span>|</span>
-                    <a href="#header">Logowanie</a>
-                    <a href="#header">Rejestracja</a>
+                    <a href="#login" id='loginButton'>Logowanie</a>
+                    <a href="#register" id='registerButton' data-toggle="modal" data-target="#registerModal">Rejestracja</a>
+                    
                 </nav>
                 <div class='header_menuIcon'>
                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-menu-button-wide-fill"
@@ -48,8 +49,8 @@
                             <a href="#howItWorks">Jak to działa?</a>
                             <a href="#priceList">Cennik</a>
                             <span>|</span>
-                            <a href="#header">Logowanie</a>
-                            <a href="#header">Rejestracja</a>
+                            <a href="#login" >Logowanie</a>
+                            <a href="#register" id='registerButton' data-toggle="modal" data-target="#registerModal">Rejestracja</a>
                         </nav>
                     </div>
                 </div>
@@ -216,10 +217,102 @@
                 </div>
             </div>
     </div>
+    <!-- new table -->
+    <div class="priceList_info1">
+        <div class='priceList_info1__topBox'>
+            <img src='assets/phone_small.png' alt='small_phone' />
+            <div>
+                <p>Lorem ipsum</p>
+                <p>Dolor</p>
+            </div>
+
+        </div>
+    </div>
+    <div class='priceList_info1__middleBox'>
+        <p>Za darmo</p>
+        <p>na zawsze!</p>
+    </div>
+    <div class='priceList_info1__bottomBox'>
+
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>sit amet consectetur</p>
+        </div>
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>adipisicing elit.</p>
+        </div>
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>Atque nisi ex officiis</p>
+        </div>
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>vquis deserunt quam magni.</p>
+        </div>
+        <div class="priceList_info1__bottomBox--textContainer">
+            <p>^</p>
+            <p>Veritatis alias in sit,</p>
+        </div>
+    </div>
+    <div class='priceList_info1__footer'>
+        <div class='priceList_info1__footer--wrapper'>
+            <p></p>
+            <div>
+                <img src="/assets/app_store.png" alt="app_store">
+                <img src="/assets/play_store.png" alt="play_store">
+            </div>
+
+        </div>
     </div>
 
 
     </section>
+
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id='login'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id='register'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -227,7 +320,6 @@
 
 
 
-    <script src='script.js'></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -237,6 +329,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src='/scripts/script.js'></script>
 </body>
+
 
 </html>
