@@ -1,0 +1,121 @@
+#priceList {
+  padding: 5px;
+  width: 100%;
+  background: rgb(46, 21, 134);
+  background: linear-gradient(
+    128deg,
+    rgba(46, 21, 134, 1) 35%,
+    rgba(85, 21, 148, 1) 100%
+  );
+  color: black;
+}
+
+.priceList_header > * {
+  color: var(--color-white);
+  padding: 5px;
+}
+.priceList_header {
+  display: flex;
+  flex-direction: row;
+}
+.priceList_header > p {
+  padding-top: 25px;
+  margin: 0;
+}
+
+.priceList_info1__topBox > p,
+.priceList_info1__middleBox > p {
+  margin: 0;
+}
+
+.priceList_info1__topBox,
+.priceList_info1__middleBox,
+.priceList_info1__bottomBox,
+.priceList_info1__footer {
+  background-color: var(--color-white);
+}
+
+.priceList_info1__topBox {
+  min-height: 130px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  border-radius: 22px 22px 0 0;
+  position: relative;
+  margin-top: 100px;
+}
+
+.priceList_info1__topBox > img {
+    position: absolute;
+    top: -103px;
+    left: 11px;
+    width: 97px;
+    height: 200px;
+
+}
+
+.priceList_info1__topBox :last-child {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.priceList_info1__topBox :last-child :nth-last-child(1) {
+    font-size: 24px;
+}
+
+.priceList_info1__middleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 27px;
+  font-size: 30px;
+  border-top: 1px solid var(--color-priceList_borderColorAndCheckIconColor);
+  border-bottom: 1px solid var(--color-priceList_borderColorAndCheckIconColor);
+}
+
+.priceList_info1__bottomBox {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+.priceList_info1__bottomBox--textContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 5px;
+}
+
+.priceList_info1__bottomBox--textContainer :first-child {
+  padding: 0 9px;
+  margin: 0;
+  font-size: 30px;
+  transform: rotate(180deg);
+  font-family: var(--font-pro);
+  color: var(--color-priceList_borderColorAndCheckIconColor);
+}
+.priceList_info1__bottomBox--textContainer :last-child {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  font-size: 23px;
+}
+
+.priceList_info1__footer {
+  border-radius: 0 0 22px 22px;
+  padding-bottom: 20px;
+}
+
+.priceList_info1__footer--wrapper > p {
+  margin: 0;
+}
+.priceList_info1__footer :last-child {
+  display: flex;
+  justify-content: center;
+}

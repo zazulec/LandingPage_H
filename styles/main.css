@@ -2,10 +2,14 @@
 
 :root {
   --color-white: #fff;
+  --color-black: 	#000000;
+  --color-priceList_borderColorAndCheckIconColor:#F5B035;
+  
   /* + UP  §: rgb(255,146,37); */
   /* (--color-sisterFontColor) background:  linear-gradient(180deg, rgba(255,146,37,1) 35%, rgba(229,91,0,1) 100%); */
   --font-sister: "Love Ya Like A Sister", cursive;
   --font-pro: "Font Awesome 5 Pro";
+
 }
 
 /*STYLES*/
@@ -30,9 +34,8 @@ body {
   position: relative;
   width: 100%;
   min-width: 320px;
-  max-width: 2000px;
+  max-width: 1920px;
   margin: 0 auto;
-  background: #fff;
 }
 
 .backGroundContainer {
@@ -44,3 +47,4 @@ body {
     rgba(205, 70, 157, 1) 100%
   );
 }
+
