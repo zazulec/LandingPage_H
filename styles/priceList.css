@@ -10,6 +10,10 @@
   color: black;
 }
 
+.priceList_info {
+  padding-bottom: 130px;
+}
+
 .priceList_header > * {
   color: var(--color-white);
   padding: 5px;
@@ -21,21 +25,23 @@
 .priceList_header > p {
   padding-top: 25px;
   margin: 0;
+  padding-bottom: 130px;
 }
 
-.priceList_info1__topBox > p,
-.priceList_info1__middleBox > p {
+.priceList_topBox > p,
+.priceList__middleBox > p {
   margin: 0;
 }
 
-.priceList_info1__topBox,
-.priceList_info1__middleBox,
-.priceList_info1__bottomBox,
-.priceList_info1__footer {
+.priceList_topBox,
+.priceList_middleBox,
+.priceList_bottomBox,
+.priceList_footer,
+.priceList_bottomBox2 {
   background-color: var(--color-white);
 }
 
-.priceList_info1__topBox {
+.priceList_topBox {
   min-height: 130px;
   display: flex;
   justify-content: flex-start;
@@ -44,32 +50,29 @@
   background-size: 300px 100px;
   border-radius: 22px 22px 0 0;
   position: relative;
-  margin-top: 100px;
 }
 
-.priceList_info1__topBox > img {
-    position: absolute;
-    top: -103px;
-    left: 11px;
-    width: 97px;
-    height: 200px;
-
+.priceList_topBox > img {
+  position: absolute;
+  top: -121px;
+  left: 1px;
+  width: 97px;
+  height: 200px;
 }
 
-.priceList_info1__topBox :last-child {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.priceList_topBox :last-child {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.priceList_info1__topBox :last-child :nth-last-child(1) {
-    font-size: 24px;
+.priceList_topBox :last-child :nth-last-child(1) {
+  font-size: 24px;
 }
 
-.priceList_info1__middleBox {
+.priceList_middleBox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +82,7 @@
   border-bottom: 1px solid var(--color-priceList_borderColorAndCheckIconColor);
 }
 
-.priceList_info1__bottomBox {
+.priceList_bottomBox {
   display: flex;
   flex-direction: column;
   padding: 34px 0;
@@ -107,7 +110,7 @@
   font-size: 23px;
 }
 
-.priceList_info1__footer {
+.priceList_footer {
   border-radius: 0 0 22px 22px;
   padding-bottom: 20px;
 }
@@ -115,7 +118,111 @@
 .priceList_info1__footer--wrapper > p {
   margin: 0;
 }
-.priceList_info1__footer :last-child {
+.priceList_info1__footer--wrapper :last-child {
   display: flex;
   justify-content: center;
 }
+
+.priceList_middleBox2 {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.priceList_middleBox2__basic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.priceList_middleBox2--title {
+  color: var(--color-priceListMiddleBox2-Title);
+  text-align: center;
+}
+.priceList_info2__middleBox2--premium {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.priceList_info2__premium--price {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.priceList_info2__premium--price :last-child {
+  color: var(--color-discountColor);
+  font-weight: 600;
+  padding-left: 5px;
+  padding-top: 3px;
+  font-size: 13px;
+  margin: 0;
+}
+
+.priceList_bottomBox2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.priceList_bottomBox2_textWeb {
+  display: none;
+}
+
+.priceList_bottomBox2__basicIcon :nth-child(n + 5) {
+  color: var(--color-priceList-xMark);
+  font-family: var(--font-pro);
+  padding: 0 9px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.priceList_bottomBox2_textMobile {
+  font-size: 20px;
+}
+
+.priceList_bottomBox2__premiumIcon > *,
+.priceList_bottomBox2__basicIcon :nth-child(-n + 4) {
+  padding: 0 9px;
+  margin: 0;
+  font-size: 30px;
+  transform: rotate(180deg);
+  font-family: var(--font-pro);
+  color: var(--color-priceList_borderColorAndCheckIconColor);
+}
+
+.priceList_footer > p {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.priceList_info2__footer--buttonWrapper {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.priceList_info2__footer--buttonOrange {
+  background-color: var(--color-orangeButton) !important;
+  border: none;
+  border-radius: 4px;
+  color: var(--color-white);
+  padding: 9px 30px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.priceList_info2__footer--buttonTransparent {
+background-color: var(--color-white);
+color: var(--color-orangeButton);
+border: 1px solid black;
+padding: 9px 30px;
+border-radius: 4px;
+}
+
+
+

@@ -133,10 +133,6 @@
       justify-content: center;
     }
 
-    .header_navigation {
-      padding-top: 18px;
-    }
-
     .header_navigation > * {
       font-size: 1.6rem;
     }

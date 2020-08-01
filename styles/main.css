@@ -4,6 +4,10 @@
   --color-white: #fff;
   --color-black: 	#000000;
   --color-priceList_borderColorAndCheckIconColor:#F5B035;
+  --color-discountColor: #2FA600;
+  --color-priceListMiddleBox2-Title: #F07A13;
+  --color-priceList-xMark: #C3C3C3;
+  --color-orangeButton: #F07A13;
   
   /* + UP  §: rgb(255,146,37); */
   /* (--color-sisterFontColor) background:  linear-gradient(180deg, rgba(255,146,37,1) 35%, rgba(229,91,0,1) 100%); */

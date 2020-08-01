@@ -53,7 +53,6 @@ $(() => {
       } else {
         $('.header_navigation').css('background', 'unset')
       }
-      console.log('this', $(this).scrollTop())
     })
   }
 
