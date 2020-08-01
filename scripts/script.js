@@ -53,6 +53,12 @@ $(() => {
       } else {
         $('.header_navigation').css('background', 'unset')
       }
+      if($(this).scrollTop() > 10) {
+        $('.header_menuIcon').css('background', 'rgba(0,0,0, 0.3)')
+      } else {
+        $('.header_menuIcon').css('background', 'unset')
+      }
+
     })
   }
 

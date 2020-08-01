@@ -11,7 +11,7 @@
   opacity: 0.5;
   border: 5px solid;
   border-color: var(--color-white);
-  margin: 10px 0 10px 24px;
+  margin: 30px 0 10px 24px;
   padding: 22px 35px;
 }
 
@@ -28,17 +28,26 @@
   display: flex;
   align-items: center;
   color: var(--color-white);
+  position: fixed;
+  width: 100%;
+  padding-right: 30px;
+  justify-content: flex-end;
+  z-index: 1000;
+  height: 107px;
+
 }
 
 .header_menuIcon__navigation {
   display: none;
-  margin-top: 120px;
+  margin-top: 81px;
   position: absolute;
   right: 10px;
 }
 
 .header_menuIcon__navigation > * {
-  text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
 }
 
 .header_menuIcon__navigation > * > * {
