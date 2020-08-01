@@ -83,7 +83,10 @@
   }
 
   .header_logo {
-    padding: 22px 56px;
+    padding: 28px 56px;
+    margin-top: 30px;
+    font-size: 25px;
+    
   }
 
   .header_navigation {
@@ -130,6 +133,7 @@
   .header_logo {
     padding: 23px 20px;
     font-size: 23px;
+    margin-top: 20px;
   }
 
   .header_menuIcon {
@@ -144,6 +148,7 @@
     .header_logo {
       margin-top: 30px;
       width: 249px;
+      margin-left: 80px;
       height: 102px;
       font-size: 61px;
       justify-content: center;
