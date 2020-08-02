@@ -4,13 +4,24 @@
 Landing page is full responsive for all devices. Below are some gifs showing responsiveness.
 <br/>
 
-Short gif showing: ![Size for Phone](https://user-images.githubusercontent.com/60104519/89129928-86b65000-d501-11ea-9ff4-ff1162ba2867.gif)
+**Short gif shows:** Size for Phone
 
-Short gif showing: ![Size for Pad's](https://user-images.githubusercontent.com/60104519/89130045-4c00e780-d502-11ea-901a-16073b38b572.gif)
+![Size for Phone](https://user-images.githubusercontent.com/60104519/89129928-86b65000-d501-11ea-9ff4-ff1162ba2867.gif)
+<br/>
 
-Short gif showing: ![Small size for PC](https://user-images.githubusercontent.com/60104519/89130125-caf62000-d502-11ea-91e2-7fb4a73bf198.gif)
+**Short gif shows:** Size for Pad's
 
-Short gif showing: ![Big size for PC](https://user-images.githubusercontent.com/60104519/89130182-1e686e00-d503-11ea-9bec-b116c91b2a29.gif)
+![Size for Pad's](https://user-images.githubusercontent.com/60104519/89130045-4c00e780-d502-11ea-901a-16073b38b572.gif)
+<br/>
+
+**Short gif shows:** Small size for PC
+
+![Small size for PC](https://user-images.githubusercontent.com/60104519/89130125-caf62000-d502-11ea-91e2-7fb4a73bf198.gif)
+<br/>
+
+**Short gif shows:** Big size for PC
+
+![Big size for PC](https://user-images.githubusercontent.com/60104519/89130182-1e686e00-d503-11ea-9bec-b116c91b2a29.gif)
 
 ### Technologies:
 
