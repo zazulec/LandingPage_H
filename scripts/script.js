@@ -40,10 +40,10 @@ $(() => {
   }
 
   const addLoginModalClosedListener = () => {
-    $('#login').on('hidden.bs.modal', () => window.location = "/")
+    $('#login').on('hidden.bs.modal', () => window.location = "/LandingPage_H/")
   }
   const addRegisterModalClosedListener = () => {
-    $('#register').on('hidden.bs.modal', () => window.location = "/")
+    $('#register').on('hidden.bs.modal', () => window.location = "/LandingPage_H/")
   }
 
   const addScrollListener = () => {
