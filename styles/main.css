@@ -1,22 +1,13 @@
-/*VAR*/
-
 :root {
   --color-white: #fff;
-  --color-black: 	#000000;
-  --color-priceList_borderColorAndCheckIconColor:#F5B035;
-  --color-discountColor: #2FA600;
-  --color-priceListMiddleBox2-Title: #F07A13;
-  --color-priceList-xMark: #C3C3C3;
-  --color-orangeButton: #F07A13;
-  
-  /* + UP  §: rgb(255,146,37); */
-  /* (--color-sisterFontColor) background:  linear-gradient(180deg, rgba(255,146,37,1) 35%, rgba(229,91,0,1) 100%); */
+  --color-black: #000000;
+  --color-priceList_borderColorAndCheckIconColor: #f5b035;
+  --color-discountColor: #2fa600;
+  --color-priceListMiddleBox2-Title: #f07a13;
+  --color-priceList-xMark: #c3c3c3;
+  --color-orangeButton: #f07a13;
   --font-sister: "Love Ya Like A Sister", cursive;
-  --font-pro: "Font Awesome 5 Pro";
-
 }
-
-/*STYLES*/
 
 * {
   box-sizing: border-box;
@@ -52,3 +43,17 @@ body {
   );
 }
 
+.gradient_text {
+  background: rgb(229, 91, 0);
+  background-image: linear-gradient(
+    0deg,
+    rgba(229, 91, 0, 1) 35%,
+    rgba(255, 146, 37, 1) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

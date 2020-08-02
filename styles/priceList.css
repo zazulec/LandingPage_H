@@ -107,7 +107,6 @@
   margin: 0;
   font-size: 30px;
   transform: rotate(180deg);
-  font-family: var(--font-pro);
   color: var(--color-priceList_borderColorAndCheckIconColor);
 }
 .priceList_info1__bottomBox--textContainer :last-child {
@@ -201,6 +200,11 @@
   display: flex;
   justify-content: space-evenly;
 }
+.priceList_bottomBox2_textWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 
 .priceList_bottomBox2_textWeb {
   flex-direction: column;
@@ -211,26 +215,37 @@
   display: none;
 }
 
-.priceList_bottomBox2__basicIcon :nth-child(n + 5) {
-  color: var(--color-priceList-xMark);
-  font-family: var(--font-pro);
-  padding: 0 9px;
-  margin: 0;
-  font-size: 30px;
-}
-
 .priceList_bottomBox2_textMobile {
   font-size: 20px;
 }
+.fa-check {
+  /*font awesome class */
+  color: var(--color-priceList_borderColorAndCheckIconColor);
+}
 
-.priceList_bottomBox2__premiumIcon > *,
-.priceList_bottomBox2__basicIcon :nth-child(-n + 4) {
-  padding: 0 9px;
+.fa-times {
+  /*font awesome class */
+  color: var(--color-priceList-xMark);
+}
+
+.priceList_bottomBox2__premiumIcon > i {
+  display: flex;
+  padding: 7px 9px;
   margin: 0;
   font-size: 30px;
-  transform: rotate(180deg);
-  font-family: var(--font-pro);
   color: var(--color-priceList_borderColorAndCheckIconColor);
+}
+
+.priceList_bottomBox2__basicIcon {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 30px;
+}
+
+.priceList_bottomBox2__basicIcon :nth-child(n + 5) {
+  margin: 0;
+  font-size: 30px;
 }
 
 .priceList_info2__footer--buttonWrapper {
@@ -327,7 +342,7 @@
   }
 }
 
-@media screen and (min-width: 1260px)  {
+@media screen and (min-width: 1260px) {
   .priceList_info__wrapper {
     flex-direction: row;
     justify-content: space-around;
@@ -361,6 +376,12 @@
 
   .priceList_middleBox2 {
     justify-content: flex-end;
+    padding-right: 30px;
+  }
+  .priceList_bottomBox2_textWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
   }
 
   .priceList_middleBox2__basic {
