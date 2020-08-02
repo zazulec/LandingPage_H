@@ -228,9 +228,9 @@
   padding: 0 9px;
   margin: 0;
   font-size: 30px;
-  transform: rotate(180deg);
   font-family: var(--font-pro);
-  color: var(--color-priceList_borderColorAndCheckIconColor);
+  color: var(--color-priceList_borderColorAndCheckIconColor) !important;
+  
 }
 
 .priceList_info2__footer--buttonWrapper {
