@@ -10,6 +10,7 @@
 
 ### Techical info
 -supported web browser: Google Chrome, Firefox (Safari isnt fully supported - problem with gradient on text - text doesn't appeard)
+-page is full responsive for all supported browser
 -landing page support max width: 1920px
 -when user click in 'logowanie' or 'register' will appear popup. User can close popup on few ways (all buttons in popup, history back, enter other address in url bar or click out of popup)
 -user can open login and register popups through added /#login /#register to the end of url in adress bar
